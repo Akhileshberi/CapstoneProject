@@ -5,7 +5,7 @@ from gtts import gTTS
 import io
 import time
 
-#APIKEY ="AIzaSyCBlOZoLEQQtDUDN9_cjqp3C_qQCQwMQuc"
+
 st.title("Web Application to convert text to speech and download the audio file")
 status = st.radio("Select an option:", ("Enter Text", "Upload a file"))
 text_content = ""
