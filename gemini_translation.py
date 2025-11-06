@@ -103,10 +103,10 @@ if st.button("Translate and Convert to Speech"):
                 os.remove(audio_file_path)  # Clean up temporary file
 
 hide_github_icon = """
-        <style>
-        #GithubIcon {
-            visibility: hidden;
-        }
-        </style>
-        """
-        st.markdown(hide_github_icon, unsafe_allow_html=True)
+<style>
+#GithubIcon {
+    visibility: hidden;
+}
+</style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
