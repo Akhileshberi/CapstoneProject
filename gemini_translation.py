@@ -8,8 +8,8 @@ import pandas as pd
 #import basicStreamlitapp
 
 import getpass
-APIKEY = getpass.getpass()
-
+#APIKEY = getpass.getpass()
+APIKEY = st.secrets["OPENAI_API_KEY"]
 genai.configure(api_key=APIKEY)
 
 #Configure LLL Model
